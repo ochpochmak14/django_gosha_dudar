@@ -1,11 +1,14 @@
 {% extends "main/layout.html" %}
 
-{% block title %}Main page{% endblock %}
+{% block title %}{{title}}{% endblock %}
 
 {% block content %}
     <div class="features">
-        <h1>Главная страница </h1>
         <p>lfdfdsf</p>
         <button class="btn btn-success">На страницу про нас </button> 
+        <hr>
+        {% for item in obj %}
+            <h3> {{item}} </h3>
+        {% endfor %}
     </div>
 {% endblock %}
