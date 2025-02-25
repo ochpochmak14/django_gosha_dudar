@@ -69,3 +69,19 @@ main .features h1 {
 main .features p {
     max-width: 400px; margin: 20px auto
 }
+
+main .features div {
+    background-color: #fff3cd; /* Светло-желтый фон */
+    color: #856404; /* Коричневый текст */
+    border: 1px solid #ffeeba; /* Светлая рамка */
+    padding: 15px;
+    margin: 20px auto; /* Отступы */
+    width: 400px; /* Ширина блока */
+    border-radius: 5px; /* Скругленные углы */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
+    text-align: left; /* Выравнивание текста */
+}
+
+
+
+

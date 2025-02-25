@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main',
+    'news',
 ]
 
 MIDDLEWARE = [
@@ -122,7 +123,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static"
+    BASE_DIR / "main/static",   
 ]
+
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
