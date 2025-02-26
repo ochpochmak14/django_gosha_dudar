@@ -70,17 +70,51 @@ main .features p {
     max-width: 400px; margin: 20px auto
 }
 
-main .features div {
-    background-color: #fff3cd; /* Светло-желтый фон */
-    color: #856404; /* Коричневый текст */
-    border: 1px solid #ffeeba; /* Светлая рамка */
-    padding: 15px;
-    margin: 20px auto; /* Отступы */
-    width: 400px; /* Ширина блока */
-    border-radius: 5px; /* Скругленные углы */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Тень */
-    text-align: left; /* Выравнивание текста */
+form {
+    max-width: 500px; /* Устанавливаем максимальную ширину формы */
+    margin: 0 auto; /* Центрируем форму */
+    background: white; /* Фон формы */
+    padding: 20px;
+    border-radius: 10px; /* Скругляем углы */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Тень для эффекта глубины */
 }
+
+h1 {
+    text-align: right; /* Выравниваем заголовок */
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    width: 89%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Скругленные края */
+    font-size: 16px;
+    background: #f9f9f9; /* Светло-серый фон */
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    border-color: #28a745; /* Зеленый цвет при фокусе */
+    box-shadow: 0px 0px 5px rgba(40, 167, 69, 0.5);
+    background: white;
+}
+
+button.btn-success {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button.btn-success:hover {
+    background: #218838;
+}
+
 
 
 
